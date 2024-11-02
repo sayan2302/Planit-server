@@ -4,11 +4,12 @@ import connectDB from './config/db.js'
 import authRoutes from './routes/authRoutes.js'
 import cors from 'cors'
 
+// Configs
 dotenv.config()
 const app = express()
 
 
-//Constants
+// Constants
 const PORT = process.env.PORT || 8000
 
 
